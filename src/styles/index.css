@@ -15,6 +15,20 @@ body {
     text-align: center;
     margin: 100px;
 }
+
+.traffic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar-holder {
+    background-color: #333; /* example color */
+    width: 10px; /* example width */
+    height: 200px; /* example height */
+    margin-top: 20px; /* example spacing */
+}
+
 .traffic-light{
     background: black;
     padding: 10px;
