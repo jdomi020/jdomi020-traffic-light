@@ -11,6 +11,10 @@
 
 */
 
+body {
+    text-align: center;
+    margin: 100px;
+}
 .traffic-light{
     background: black;
     padding: 10px;

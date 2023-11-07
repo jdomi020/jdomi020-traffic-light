@@ -8,6 +8,7 @@ const Home = () => {
 	// the react hook, takes the original variable and hooks it up to be more dynamic
 
 	return (
+		
 		<div className="traffic-light">
 			<div
 				onClick={() => setSelectedColor("red")}
@@ -25,6 +26,7 @@ const Home = () => {
 					"light green" + ((selectedColor === "green") ? " glow" : "")
 				}></div>
 		</div>
+		
 	);
 };
 
