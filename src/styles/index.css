@@ -16,6 +16,8 @@
     padding: 10px;
     display: inline-block;
     margin: auto;
+    border-radius: 10px;
+    
 }
 
 .light {
